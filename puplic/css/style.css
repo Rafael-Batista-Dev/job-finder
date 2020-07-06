@@ -69,6 +69,7 @@ icon color: #a1a1a1;
   background-color: #fff;
   border-color: transparent;
   padding: 10px 0;
+  border-bottom: 1px solid #6e6e6e;
 }
 
 ul.navbar-nav li a {
