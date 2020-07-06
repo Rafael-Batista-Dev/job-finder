@@ -2,8 +2,8 @@ const express = require("express");
 const router = express.Router();
 const Job = require("../models/Job");
 
-router.get("/test", (req, res) => {
-  res.send("Tudo OK!");
+router.get("/add", (req, res) => {
+  res.render("add");
 });
 
 // Add job via post
