@@ -1043,3 +1043,9 @@ h4.panel-title {
 #contact-us {
   padding: 70px 0;
 }
+
+.lbl-warning {
+  background-color: rgba(255, 184, 34, 0.1);
+  color: #ffb822;
+  display: none;
+}

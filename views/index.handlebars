@@ -50,99 +50,25 @@
   </div>
 
   <div class="container">
+
     <div class="row">
-
-      <!-- Single Feature-->
-      <div class="col-sm-12">
-        <div class="single-feature wow fadeInLeft">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-bitbucket"></i>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <div class="blog-info">
-                  <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
-                  </ul>
-
-                  <div class="read-more pull-right">
-                    <a href="#" class="btn btn-readmore">Aplicar Agora!</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Feature-->
-
-      <!-- Single Feature-->
-      <div class="col-sm-12">
-        <div class="single-feature wow fadeInLeft">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-apple "></i>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <div class="blog-info">
-                  <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
-                  </ul>
-
-                  <div class="read-more pull-right">
-                    <a href="#" class="btn btn-readmore">Aplicar Agora!</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Feature-->
-
       <!-- Single Feature-->
       <div class="col-sm-12">
         <div class="single-feature wow fadeInRight">
+          {{#each jobs}}
           <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-automobile "></i>
-              </div>
-            </div>
-            <div class="col-md-10">
+            <div class="col-md-12">
               <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                <h4>{{dataValues.title}}</h4>
+
                 <div class="blog-info">
                   <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
+
+                    <li>{{dataValues.createdAt}}</li>
+                    <li>{{dataValues.company}}</li>
+                    <li>R$: {{dataValues.salary}}</li>
+                    <li><label class="lbl {{#if dataValues.new_job}}lbl-warning{{/if}}"><i>Vaga Nova!</i></label></li>
                   </ul>
 
                   <div class="read-more pull-right">
@@ -150,120 +76,12 @@
                   </div>
 
                 </div>
+
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Single Feature-->
-
-
-    </div>
-
-
-    <div class="row">
-
-      <!-- Single Feature-->
-      <div class="col-sm-12">
-        <div class="single-feature wow fadeInLeft">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-bullhorn "></i>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <div class="blog-info">
-                  <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
-                  </ul>
-
-                  <div class="read-more pull-right">
-                    <a href="#" class="btn btn-readmore">Aplicar Agora!</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Feature-->
-
-      <!-- Single Feature-->
-      <div class="col-sm-12">
-        <div class="single-feature wow fadeInLeft">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-camera-retro"></i>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <div class="blog-info">
-                  <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
-                  </ul>
-
-                  <div class="read-more pull-right">
-                    <a href="#" class="btn btn-readmore">Aplicar Agora!</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Feature-->
-
-      <!-- Single Feature-->
-      <div class="col-sm-12">
-        <div class="single-feature wow fadeInRight">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="feature-icon">
-                <i class="fa fa-coffee "></i>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="feature-text">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <div class="blog-info">
-                  <ul>
-                    <li><a href="">Date: June 05, 2016</a></li>
-                    <li><a href="">Empresa</a></li>
-                    <li><a href="">ReactJS</a></li>
-                    <li><a href="">Plano</a></li>
-                    <li><a href="">Salário R$: 14.000</a></li>
-                  </ul>
-
-                  <div class="read-more pull-right">
-                    <a href="#" class="btn btn-readmore">Aplicar Agora!</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
+          <br>
+          {{/each}}
         </div>
       </div>
       <!-- Single Feature-->
