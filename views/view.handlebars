@@ -1,0 +1,31 @@
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <!-- Right Sidebar -->
+      <div class="col-md-12">
+        <aside class="bounceInDown">
+          <div class="widget">
+            <div class="card">
+              <div class="box">
+
+                <h2>{{job.dataValues.company}}<br>
+                  <span>Queremos um<i>(a)</i> {{job.dataValues.title}}</span>
+                </h2>
+                <p>{{job.dataValues.salary}}</p>
+                <br>
+                <hr>
+                <p>{{job.dataValues.description}}</p>
+                <span>
+                  <ul>
+                    <li><i class="fa fa-email" aria-hidden="true"><a
+                          href="mail:to{{job.dataValues.email}} ">{{job.dataValues.email}} </a></i></li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
