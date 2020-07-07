@@ -5,7 +5,7 @@
       <div class="col-md-12">
         <aside class="bounceInDown">
           <div class="widget">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="/jobs/add" method="POST">
               <fieldset>
                 <!-- Cadastro de Vaga! -->
                 <legend>Cadastro de Vaga!</legend>
@@ -13,18 +13,18 @@
                 <!-- Text input-->
                 <br />
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="titulo">Titulo:</label>
+                  <label class="col-md-3 control-label" for="title">Titulo:</label>
                   <div class="col-md-6">
-                    <input id="titulo" name="titulo" type="text" placeholder="Título da Vaga"
+                    <input id="title" name="title" type="text" placeholder="Título da Vaga"
                       class="form-control input-md" required="" />
                   </div>
                 </div>
 
                 <!-- Text input-->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="empresa">Empresa:</label>
+                  <label class="col-md-3 control-label" for="company">Empresa:</label>
                   <div class="col-md-6">
-                    <input id="empresa" name="empresa" type="text" placeholder="Empresa Contratante"
+                    <input id="company" name="company" type="text" placeholder="Empresa Contratante"
                       class="form-control input-md" />
                   </div>
                 </div>
@@ -41,19 +41,20 @@
                 <!-- Text input-->
                 <div class="form-group">
                   <label class="col-md-3 control-label">Salário:</label>
-                  <div class="col-md-6" for="salario">
-                    <input value="1" name="new_job" type="hidden" />
-                    <input id="salario" name="salario" type="number" placeholder="Salário da Vaga"
+                  <div class="col-md-6" for="salary">
+
+                    <input id="salary" name="salary" type="number" placeholder="Salário da Vaga"
                       class="form-control input-md" />
                   </div>
+                  <input type="hidden" name="new_job" value="0" />
                 </div>
 
                 <!-- Text input-->
                 <div class="form-group">
-                  <label class="col-md-3 control-label" for="descricao">Descrição:</label>
+                  <label class="col-md-3 control-label" for="description">Descrição:</label>
                   <div class="col-md-6">
-                    <textarea class="form-control input-md" placeholder="Descrição da Vaga" name="descricao"
-                      id="descricao" cols="48" rows="5"></textarea>
+                    <textarea class="form-control input-md" placeholder="Descrição da Vaga" name="description"
+                      id="description" cols="48" rows="5"></textarea>
                   </div>
                 </div>
 
