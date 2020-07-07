@@ -1,10 +1,28 @@
 const express = require("express");
 const router = express.Router();
 const Job = require("../models/Job");
+const { where } = require("sequelize/types");
 
+//Rota cadastrar vaga
 router.get("/add", (req, res) => {
   res.render("add");
 });
+
+//Rota visualizar vaga
+router.get("/view/:id", (req, res) =>
+  Job.findOne({
+    where: { id: req.params.id },
+  })
+    .then((job) => {
+      res.render("view", {
+        job,
+      });
+    })
+    .catch((err) => console.log(err))
+);
+where: {
+  id: req.params.id;
+}
 
 // Add job via post
 router.post("/add", (req, res) => {
