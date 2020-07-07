@@ -5,70 +5,80 @@
       <div class="col-md-12">
         <aside class="bounceInDown">
           <div class="widget">
-            <form class="form-horizontal" action="/jobs/add" method="POST">
-              <fieldset>
-                <!-- Cadastro de Vaga! -->
-                <legend>Cadastro de Vaga!</legend>
+            <div class="col-md-12">
+              <div class="cardAdd">
+                <div class="box">
+                  <form class="form-horizontal" action="/jobs/add" method="POST">
+                    <fieldset>
+                      <!-- Cadastro de Vaga! -->
+                      <h2>Cadastro de Vaga!</h2>
 
-                <!-- Text input-->
-                <br />
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="title">Titulo:</label>
-                  <div class="col-md-6">
-                    <input id="title" name="title" type="text" placeholder="Título da Vaga"
-                      class="form-control input-md" required="" />
-                  </div>
+                      <!-- Text input-->
+                      <br />
+                      <div class="form-group">
+
+                        <div class="col-md-12">
+                          <input id="title" name="title" type="text" placeholder="Título da Vaga"
+                            class="form-control input-md" required="" />
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+
+                        <div class="col-md-12">
+                          <input id="company" name="company" type="text" placeholder="Empresa Contratante"
+                            class="form-control input-md" />
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+
+                        <div class="col-md-12">
+                          <input id="email" name="email" type="text" placeholder="E-mail para contato"
+                            class="form-control input-md" required="" />
+                        </div>
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+
+                        <div class="col-md-12" for="salary">
+
+                          <input id="salary" name="salary" type="number" placeholder="Salário da Vaga"
+                            class="form-control input-md" />
+                        </div>
+                        <input type="hidden" name="new_job" value="0" />
+                      </div>
+
+                      <!-- Text input-->
+                      <div class="form-group">
+
+                        <div class="col-md-12">
+                          <textarea class="form-control input-md" placeholder="Descrição da Vaga" name="description"
+                            id="description" cols="48" rows="5"></textarea>
+                        </div>
+                      </div>
+
+                      <!-- Button -->
+                      <div class="form-group">
+
+                        <div class="col-md-12">
+                          <button id="cadastrar" name="cadastrar" class="btn-sm btn btn-subscribe btn-block">
+                            Cadastrar
+                          </button>
+                        </div>
+                      </div>
+                      <br>
+                    </fieldset>
+                  </form>
                 </div>
-
-                <!-- Text input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="company">Empresa:</label>
-                  <div class="col-md-6">
-                    <input id="company" name="company" type="text" placeholder="Empresa Contratante"
-                      class="form-control input-md" />
-                  </div>
-                </div>
-
-                <!-- Text input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="email">E-mail:</label>
-                  <div class="col-md-6">
-                    <input id="email" name="email" type="text" placeholder="E-mail para contato"
-                      class="form-control input-md" required="" />
-                  </div>
-                </div>
-
-                <!-- Text input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label">Salário:</label>
-                  <div class="col-md-6" for="salary">
-
-                    <input id="salary" name="salary" type="number" placeholder="Salário da Vaga"
-                      class="form-control input-md" />
-                  </div>
-                  <input type="hidden" name="new_job" value="0" />
-                </div>
-
-                <!-- Text input-->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="description">Descrição:</label>
-                  <div class="col-md-6">
-                    <textarea class="form-control input-md" placeholder="Descrição da Vaga" name="description"
-                      id="description" cols="48" rows="5"></textarea>
-                  </div>
-                </div>
-
-                <!-- Button -->
-                <div class="form-group">
-                  <label class="col-md-3 control-label" for="cadastrar"></label>
-                  <div class="col-md-6">
-                    <button id="cadastrar" name="cadastrar" class="boton btn-sm btn-primary btn-block">
-                      Cadastrar
-                    </button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
+              </div>
+            </div>
+          </div>
+          <div class="base">
+            <br>
           </div>
         </aside>
       </div>
