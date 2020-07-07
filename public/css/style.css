@@ -329,7 +329,8 @@ ul.navbar-nav li a {
 
 #testimonials {
   background-color: #90a3b3;
-  background: url(../img/testimonials-bg.jpg) 50% 0 repeat fixed;
+  background: url(../img/testimonials-bg.jpg) 100% 0 repeat fixed;
+
   min-height: 570px;
   color: #fff;
   text-rendering: optimizelegiblity;
