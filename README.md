@@ -21,8 +21,8 @@
 Qual quer empresas ou instituições poderão cadastrar suas vagas na plataforma web enviando:
 
 - Titulo da vaga
-- Empressa contratante
-- E-mail do contratante
+- Empresa contratante
+- Email do contratante
 - Salário
 - Descrição da vaga
 
