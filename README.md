@@ -40,12 +40,11 @@ Projeto desenvolvido, para aprimorar os conhecimentos nas tecnologias web.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Handlebars][handlebars]
-- [Bootstrap][bootstrap]
-- [Node.js][nodejs]
-- [JS][javascript]
-- [Express][express]
-
+- Handlebars
+- Bootstrap
+- Node.js
+- Javascript
+- Express
 ## 🚀 Como rodar este projeto
 
 Este projeto contém 2 partes:
