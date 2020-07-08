@@ -42,6 +42,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Handlebars
 - Bootstrap
+- Sqlite3
 - Node.js
 - Javascript
 - Express
