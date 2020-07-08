@@ -9,8 +9,6 @@
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/job-finder">
 
-  <img alt="David" src="https://img.shields.io/david/dev/Rafael-Batista-Dev/job-finder">
-
   <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Rafael-Batista-Dev/job-finder">
 
   <img alt="GitHub" src="https://img.shields.io/github/license/Rafael-Batista-Dev/job-finder">
@@ -43,9 +41,9 @@ Projeto desenvolvido, para aprimorar os conhecimentos nas tecnologias web.
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Handlebars][handlebars]
+- [Bootstrap][bootstrap]
 - [Node.js][nodejs]
 - [JS][javascript]
-- [Bootstrap][bootstrap]
 - [Express][express]
 
 ## 🚀 Como rodar este projeto
