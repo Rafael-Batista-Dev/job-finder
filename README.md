@@ -38,17 +38,6 @@ Projeto desenvolvido, para aprimorar os conhecimentos nas tecnologias web.
 <img alt="job-finder" title="#job-finder" src="https://github.com/Rafael-Batista-Dev/job-finder/blob/master/assets/job-finder.gif" />
 </p>
 
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="job-finder" title="#NextLevelWeek" src="./github-assets/home-web.svg" width="300px">
-
-</p>
-
-<p align="center">
-  
-</p>
-
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -61,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como rodar este projeto
 
-Este projeto contém 2:
+Este projeto contém 2 partes:
 
 1. Back End
 2. Front End
